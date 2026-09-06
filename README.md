@@ -202,3 +202,7 @@ This historical task ledger is retained for context; current work lives in this 
 | `f66caa8c` swe-interview-prep: add role-specific practice picker proof | done | medium | 2026-05-26 — added Login role picker (Frontend / Backend / System design tabs) on landing; each tab swaps a sample question card (prompt + kind + tags); defaults to Backend, no auth required |
 | `10c4e62c` swe-interview-prep: add paid mock-interview outcome preview | done | high | 2026-05-26 — added PaidMockPackPreview component on Mock setup screen: hiring signal verdict (Strong Yes / L4–L5), overall readiness score bar, blurred written analysis teaser, pattern gaps list, personalized drill roadmap preview; one full-width CTA button ("Get my mock pack") with click-to-confirm state; no backend/auth/data changes |
 <!-- ACTIVE-AI-TASK-LOG:END -->
+
+## External learning resources
+
+- [raw-bits-to-react](https://github.com/renderffx/raw-bits-to-react) — CPU → cache → TCP → browser engine → JS VM → Fiber React → 60 fps. A deep-dive into React internals from the hardware up.
