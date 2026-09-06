@@ -4,6 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 
 import { useAuth } from '../contexts/AuthContext';
 import curriculumSummary from '../data/public-curriculum-summary.json';
+import { GitHubRepoLink } from '../components/GitHubRepoLink';
 import { SiteHeader } from '../components/SiteHeader';
 import { GoogleSignInButton } from '../components/GoogleSignInButton';
 import { getGoogleClientId } from '../lib/googleClientId';
@@ -455,12 +456,10 @@ export default function Login() {
               >
                 System-design cases
               </a>
-              <a
+              <GitHubRepoLink
                 href="https://github.com/Significant-Hobbies/swe-interview-prep"
                 className="inline-flex min-h-11 items-center text-white/70 hover:text-white"
-              >
-                Source
-              </a>
+              />
             </div>
           </nav>
         </div>

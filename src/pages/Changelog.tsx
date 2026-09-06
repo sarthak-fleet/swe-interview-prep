@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 
+import { GitHubRepoLink } from '../components/GitHubRepoLink';
 import { CHANGELOG_RELEASES, CHANGELOG_REPOSITORY } from '../data/changelog';
 
 export default function Changelog() {
@@ -19,9 +20,10 @@ export default function Changelog() {
           <a className="text-cyan-300 hover:text-cyan-200" href={`${CHANGELOG_REPOSITORY}/issues`}>
             Roadmap
           </a>
-          <a className="text-cyan-300 hover:text-cyan-200" href={CHANGELOG_REPOSITORY}>
-            Source
-          </a>
+          <GitHubRepoLink
+            href={CHANGELOG_REPOSITORY}
+            className="inline-flex items-center text-cyan-300 hover:text-cyan-200"
+          />
         </nav>
       </header>
 

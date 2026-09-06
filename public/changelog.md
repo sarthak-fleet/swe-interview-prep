@@ -3,7 +3,6 @@
 Meaningful improvements to the curriculum, practice loop, and personal learning system.
 
 - [Roadmap](https://github.com/Significant-Hobbies/swe-interview-prep/issues)
-- [Source](https://github.com/Significant-Hobbies/swe-interview-prep)
 
 ## 2026-09-03 — Drills grade what you actually wrote
 
